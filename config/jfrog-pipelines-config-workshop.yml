@@ -1,0 +1,36 @@
+apiVersion: training.eduk8s.io/v1alpha2
+kind: Workshop
+metadata:
+  name: jfrog-pipelines-configuration
+spec:
+  title: JFrog Pipelines Configuration
+  description: Configuring JFrog Pipelines
+  url: https://github.com/lsilvapvt/jfrog-pipelines-workshop
+  logo: https://raw.githubusercontent.com/lsilvapvt/jfrog-pipelines-workshop/main/workshop/content/images/JFrog_Pipelines_Green.png
+  vendor: edu.workshops.zone
+  authors:
+  - Luciano Silva
+  difficulty: intermediate
+  duration: 1h
+  tags:
+  - jfrog
+  - artifactory
+  content:
+    image: silval/jfrog-automation-workshop:latest
+    files: github.com/lsilvapvt/jfrog-pipelines-workshop
+  session:
+    namespaces:
+      budget: medium
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      console:
+        enabled: false
+      editor:
+        enabled: true
+      slides:
+        enabled: false      
+    env:
+    - name: WORKSHOP_FILE
+      value: workshop-config.yml 

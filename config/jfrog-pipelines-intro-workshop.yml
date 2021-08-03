@@ -3,13 +3,14 @@ kind: Workshop
 metadata:
   name: jfrog-pipelines-fundamentals
 spec:
-  title: JFrog Platform Pipelines Fundamentals
-  description: Fundamentals of JFrog Platform Pipelines
+  title: JFrog Pipelines Fundamentals
+  description: Fundamentals of JFrog Pipelines
   url: https://github.com/lsilvapvt/jfrog-pipelines-workshop
+  logo: https://raw.githubusercontent.com/lsilvapvt/jfrog-pipelines-workshop/main/workshop/content/images/JFrog_Pipelines_Green.png
   vendor: edu.workshops.zone
   authors:
   - Luciano Silva
-  difficulty: intermediate
+  difficulty: beginner
   duration: 1h
   tags:
   - jfrog
@@ -29,4 +30,7 @@ spec:
       editor:
         enabled: true
       slides:
-        enabled: false       
+        enabled: false      
+    env:
+    - name: WORKSHOP_FILE
+      value: workshop-intro.yml 

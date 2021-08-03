@@ -1,4 +1,4 @@
-Lab - JFrog Automation Fundamentals
+Lab - JFrog Pipelines Fundamentals Labs
 =============================
 
 TBD

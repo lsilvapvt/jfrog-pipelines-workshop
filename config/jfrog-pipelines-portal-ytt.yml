@@ -1,12 +1,15 @@
+#@ load("@ytt:data", "data")
+
+#@ for/end labenv in data.values.credentials:
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: jfrog-pipelines-fundamentals
+  name: jfrog-pipelines-workshops
 spec:
   portal:
     title: JFrog Pipelines Workshops
-    logo: https://github.com/lsilvapvt/jfrog-automation-workshop/raw/main/workshop/content/images/Jfrog_Green_RGB.png
-    password: superfr0g
+    logo: https://raw.githubusercontent.com/lsilvapvt/jfrog-pipelines-workshop/main/workshop/content/images/Jfrog_Green_RGB.png
+    password: #@ labenv.portal_password
     ingress:
       domain: edu.workshops.zone
       hostname: jfrog
@@ -14,26 +17,33 @@ spec:
     registration:
       type: anonymous
     sessions:
-      maximum: 1  
+      maximum: 3  
     catalog:
       visibility: public
   workshops:
   - name: jfrog-pipelines-fundamentals
-    capacity: 1
-    expires: 4h
+    capacity: 2
+    expires: 2h
     orphaned: 15m
     env:
     - name: LAB_SLOT_ID
-      value: #@ labenv.env_id
-    - name: LAB_USERNAME
-      value: #@ labenv.env_username
-    - name: LAB_PASSWORD
-      value: #@ labenv.env_password
+      value: $(session_id)
     - name: JFROG_URL
       value: #@ labenv.jfrog_url
     - name: JFROG_PROTOCOL
       value: #@ labenv.jfrog_protocol
     - name: JFROG_ACCESSTOKEN
       value: #@ labenv.jfrog_accesstoken    
-    - name: LAB_SESSION_ID
+  - name: jfrog-pipelines-configuration
+    capacity: 2
+    expires: 2h
+    orphaned: 15m
+    env:
+    - name: LAB_SLOT_ID
       value: $(session_id)
+    - name: JFROG_URL
+      value: #@ labenv.jfrog_url
+    - name: JFROG_PROTOCOL
+      value: #@ labenv.jfrog_protocol
+    - name: JFROG_ACCESSTOKEN
+      value: #@ labenv.jfrog_accesstoken    
