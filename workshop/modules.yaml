@@ -1,0 +1,55 @@
+modules:
+    index:
+        name: Workshop Overview
+        exit_sign: Start Workshop
+    concepts/03_jfrog_rest-api:
+        name: JFrog REST API
+    labs/01_jfrog_rest_api:
+        name: REST API - Authentication
+    labs/02_jfrog_rest_api_samples01:
+        name: REST API - Repositories
+    labs/03_jfrog_rest_api_files:
+        name: REST API - Artifacts
+    labs/04_jfrog_projects_01:
+        name: REST API - Projects
+    labs/05_jfrog_rest_api_distribution_01:
+        name: REST API - Distribution Service 
+    labs/05_jfrog_rest_api_distribution_02:
+        name: REST API - Distribution GPG Keys 
+    labs/05_jfrog_rest_api_distribution_03:
+        name: REST API - Distribution Tasks    
+    labs/06_jfrog_rest_api_accesstokens:   
+        name: REST API - Access Tokens    
+    concepts/04_jfrog_cli:
+        name: JFrog CLI    
+    labs/10_jfrog_cli:
+        name: JFrog CLI - Configuration
+    labs/11_jfrog_cli_repos:
+        name: JFrog CLI - Artifacts   
+    concepts/05_jfrog_aql:
+        name: Artifactory Query Language
+    labs/20_jfrog_aql_samples:
+        name: AQL Examples
+    concepts/06_jfrog_graphql:
+        name: GraphQL
+    concepts/07_jfrog_filespec:
+        name: File Spec
+    labs/30_jfrog_filespec_samples:
+        name: File Spec Examples
+    finish:
+        name: Summary
+        exit_sign: Finish
+config:
+    vars:
+    - name: LAB_SLOT_ID
+      value: lucianos
+    - name: LAB_USERNAME
+      value: myuser
+    - name: LAB_PASSWORD
+      value: mypassword
+    - name: JFROG_URL
+      value: myurl
+    - name: JFROG_PROTOCOL
+      value: https
+    - name: JFROG_ACCESSTOKEN
+      value: mytoken
