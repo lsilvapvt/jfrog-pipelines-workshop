@@ -2,7 +2,7 @@
 
 <br/>
 
-### JFrog Platform Automation
+### JFrog Pipelines Introduction
 
 <br/>
 
@@ -12,15 +12,11 @@
 
 <br/>
 
-1. REST API
+1. What
 
-2. JFrog CLI
+2. Why
 
-3. Artifactory Query Language
-
-4. GraphQL
-
-5. File Spec
+3. Basic Concepts
 
 <br/>
 

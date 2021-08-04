@@ -34,7 +34,7 @@ spec:
       value: #@ labenv.jfrog_protocol
     - name: JFROG_ACCESSTOKEN
       value: #@ labenv.jfrog_accesstoken    
-  - name: jfrog-pipelines-configuration
+  - name: jfrog-pipelines-stepbystep
     capacity: 2
     expires: 2h
     orphaned: 15m

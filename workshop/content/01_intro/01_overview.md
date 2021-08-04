@@ -1,13 +1,17 @@
-<!-- ### REST API - Authentication -->
+<!-- ### Pipelines Overview -->
 
-### Base URL
+
+JFrog Pipelines is an Enterprise-ready, Universal CI & CD platform that provides:
+
+- end-to-end automation (CI/CD)
+- workflow and tool orchestration
+- optimization of the JFrog toolset functionality in use
+
+[Documentation](https://wiki-int.jfrog.org/display/JFROG/JFrog+Pipelines)
+
 
 <br/>
 
-The Platform REST URL is constructed of:  
-`<JFrog URL>/<Service Context>/`
-
-For example: 
 
 - Using your JFrog URL:  
   `http://myjfrog.acme.org/artifactory/`

@@ -1,7 +1,7 @@
 apiVersion: training.eduk8s.io/v1alpha2
 kind: Workshop
 metadata:
-  name: jfrog-pipelines-configuration
+  name: jfrog-pipelines-stepbystep
 spec:
   title: JFrog Pipelines Configuration
   description: Configuring JFrog Pipelines
@@ -32,5 +32,5 @@ spec:
         enabled: false      
     env:
     - name: WORKSHOP_FILE
-      value: workshop-config.yaml 
+      value: workshop-stepbystep.yaml 
   

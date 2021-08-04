@@ -1,0 +1,6 @@
+name: JFrog Pipelines - Step-by-Step
+
+modules:
+    activate:
+    - 02_stepbystep/index
+    - 02_stepbystep/finish

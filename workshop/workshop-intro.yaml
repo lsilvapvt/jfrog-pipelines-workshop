@@ -2,13 +2,9 @@ name: JFrog Pipelines
 
 modules:
     activate:
-    - concepts/03_jfrog_rest-api
-    - labs/01_jfrog_rest_api 
-    - labs/02_jfrog_rest_api_samples01
-    - labs/03_jfrog_rest_api_files
-    - labs/04_jfrog_projects_01
-    - labs/05_jfrog_rest_api_distribution_01
-    - labs/05_jfrog_rest_api_distribution_02
-    - labs/05_jfrog_rest_api_distribution_03
-    - labs/06_jfrog_rest_api_accesstokens
-    - finish
+    - 01_intro/index
+    - 01_intro/01_overview
+    - 01_intro/02_platform
+    - 01_intro/03_why
+    - 01_intro/04_concepts
+    - 01_intro/finish

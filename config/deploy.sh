@@ -16,7 +16,7 @@ sleep 10
 sleep 5
 
 kubectl apply -f jfrog-pipelines-intro-workshop.yml
-kubectl apply -f jfrog-pipelines-config-workshop.yml
+kubectl apply -f jfrog-pipelines-stepbystep-workshop.yml
 
 sleep 5
 

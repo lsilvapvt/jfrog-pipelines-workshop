@@ -1,8 +1,0 @@
-### JFrog Automation
-
-<br/>
-
-- Blah
-
-
----
