@@ -29,7 +29,7 @@ spec:
       editor:
         enabled: true
       slides:
-        enabled: false      
+        enabled: true      
     env:
     - name: WORKSHOP_FILE
       value: workshop-intro.yaml 

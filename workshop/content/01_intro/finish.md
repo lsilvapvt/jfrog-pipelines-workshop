@@ -10,6 +10,7 @@ Next, learn how to configure a JFrog Pipeline step-by-step.
 #### For more information
 
 * [JFrog documentation](https://jfrog.com)
+* [JFrog Pipelines documentation](https://www.jfrog.com/confluence/display/JFROG/JFrog+Pipelines)
 * [Configuring JFrog Pipelines](https://www.jfrog.com/confluence/display/JFROG/Configuring+Pipelines)
 * [Working with JFrog Pipelines](https://www.jfrog.com/confluence/display/JFROG/Working+with+Pipelines)
 * [JFrog Pipelines Developer Guide](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Developer+Guide)
