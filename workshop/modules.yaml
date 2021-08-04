@@ -22,7 +22,7 @@ modules:
         name: Creating Node Pools
     02_stepbystep/03_integrations:
         name: Creating Integrations
-    02_stepbystep/04_sources:
+    02_stepbystep/04_source:
         name: Creating Pipeline Sources
     02_stepbystep/10_dsl:
         name: Defining a Pipeline DSL

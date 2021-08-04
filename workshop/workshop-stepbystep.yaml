@@ -6,7 +6,7 @@ modules:
     - 02_stepbystep/01_roles
     - 02_stepbystep/02_nodes
     - 02_stepbystep/03_integrations
-    - 02_stepbystep/04_sources
+    - 02_stepbystep/04_source
     - 02_stepbystep/10_dsl
     - 02_stepbystep/11_run
     - 02_stepbystep/finish
