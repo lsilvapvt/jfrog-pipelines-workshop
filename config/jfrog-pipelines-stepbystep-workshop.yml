@@ -3,8 +3,8 @@ kind: Workshop
 metadata:
   name: jfrog-pipelines-stepbystep
 spec:
-  title: JFrog Pipelines Configuration
-  description: Configuring JFrog Pipelines
+  title: JFrog Pipelines Step-By-Step
+  description: Configure a basic JFrog Pipelines step-by-step.
   url: https://github.com/lsilvapvt/jfrog-pipelines-workshop
   vendor: edu.workshops.zone  
   authors:
