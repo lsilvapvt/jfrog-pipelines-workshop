@@ -1,8 +1,8 @@
-[<img src="images/Jfrog_Green_RGB.png" alt="JFrog" style="width:120px;background-color:transparent;border:none;" />](https://jfrog.com)
+[<img src="../images/Jfrog_Green_RGB.png" alt="JFrog" style="width:120px;background-color:transparent;border:none;" />](https://jfrog.com)
 
 <br/>
 
-### JFrog Pipelines Introduction
+### JFrog Pipelines - Step by Step
 
 <br/>
 
@@ -12,11 +12,11 @@
 
 <br/>
 
-1. What
+1. Configuring
 
-2. Why
+2. Integrations
 
-3. Basic Concepts
+3. Pipeline Creation
 
 <br/>
 

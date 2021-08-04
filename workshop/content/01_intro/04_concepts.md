@@ -1,10 +1,14 @@
 <!-- ### Pipelines Concepts -->
 
+<br/>
+
 ### Step
 
 The Unit of Execution.
 
 [Documentation](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Steps)
+
+<br/>
 
 ### Resource
 
@@ -22,6 +26,7 @@ The data needed as part of an execution (Git repo, Docker image, Build info etc)
 
 Interconnected set of Steps. Parallel or Serial.
 
+<br/>
 
 ### Integrations 
 
@@ -31,6 +36,7 @@ Each integration type defines the endpoint, credentials and any other configurat
 
 [Documentation](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Integrations).
 
+<br/>
 
 ### Run 
 

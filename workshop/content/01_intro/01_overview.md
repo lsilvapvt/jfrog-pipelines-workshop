@@ -1,6 +1,5 @@
 <!-- ### Pipelines Overview -->
 
-
 JFrog Pipelines is an Enterprise-ready, Universal CI & CD platform that provides:
 
 - end-to-end automation (CI/CD)
@@ -10,67 +9,15 @@ JFrog Pipelines is an Enterprise-ready, Universal CI & CD platform that provides
 [Documentation](https://wiki-int.jfrog.org/display/JFROG/JFrog+Pipelines)
 
 
-<br/>
-
-
-- Using your JFrog URL:  
-  `http://myjfrog.acme.org/artifactory/`
-
-- Using your Artifactory server hostname and port:  
-  `http://ARTIFACTORY_SERVER_HOSTNAME:8081/artifactory/`
+<img src="https://wiki-int.jfrog.org/download/attachments/95126989/image2020-1-8_17-28-53.png?version=1&modificationDate=1578533334000&api=v2" alt="JFrog Pipelines" style="width:90%;background-color:transparent;border:none;" />
 
 <br/>
 
-### Authentication
+### Workflow Automation
 
-Artifactory's REST API supports these forms of authentication:
+A pipeline is an event-driven automated workflow for executing a set of DevOps activities. It is composed of a sequence of interdependent steps and resources.
 
-- Basic authentication using your username and password  
-  `curl --user $USERNAME:$ENCRYPTEDPASSWORD <JFrog URL>/<Service Context>`
-
-- Basic authentication using your username and API Key  
-  `curl --user $USERNAME:$APIKEY <JFrog URL>/<Service Context>/`
-
-- Using a dedicated header (X-JFrog-Art-Api) with your API Key  
-  `curl -H "X-JFrog-Art-Api:$APIKEY" <JFrog URL>/<Service Context>/`
-
-- Using an access token instead of a password for basic authentication  
-  `curl --user $USERNAME:$ACCESSTOKEN <JFrog URL>/<Service Context>/`
-
-- Using an access token as a bearer token in an authorization header (Authorization: Bearer) with your access token  
-  `curl -H "Authorization: Bearer $ACCESSTOKEN" <JFrog URL>/<Service Context>/`  
-    
-  Test the System Ping API endpoint:  
-  ```execute
-  curl -H "Authorization: Bearer $JFROG_ACCESSTOKEN" $JFROG_PROTOCOL://$JFROG_URL/artifactory/api/system/ping
-  ```
-
-  GET System Information  
-  ```execute
-  curl -H "Authorization: Bearer $JFROG_ACCESSTOKEN" $JFROG_PROTOCOL://$JFROG_URL/artifactory/api/system
-  ```
-
-  GET Artifactory Licenses  
-  ```execute
-  curl -H "Authorization: Bearer $JFROG_ACCESSTOKEN" $JFROG_PROTOCOL://$JFROG_URL/artifactory/api/system/licenses
-  ```
-
-  GET General System Configuration:    
-  ```execute-2
-  curl -H "Authorization: Bearer $JFROG_ACCESSTOKEN" $JFROG_PROTOCOL://$JFROG_URL/artifactory/api/system/configuration
-  ```
-
-  GET Storage Summary information:    
-  ```execute
-  curl -H "Authorization: Bearer $JFROG_ACCESSTOKEN" $JFROG_PROTOCOL://$JFROG_URL/artifactory/api/storageinfo
-  ```
-
-
-  Launch JFrog Platform user interface
-  ```dashboard:open-url
-  name: Platform
-  url: {{ JFROG_PROTOCOL }}://{{ JFROG_URL }}/
-  ```
+<img src="https://wiki-int.jfrog.org/download/attachments/95126989/image2020-1-15_14-4-30.png?version=1&modificationDate=1579125871000&api=v2" alt="JFrog Pipelines" style="width:90%;background-color:transparent;border:none;" />
 
 <br/>
 

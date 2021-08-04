@@ -1,11 +1,11 @@
 
-#### JFrog Pipelines
-
 <br/>
+
 In this module you learned the use cases, capabilities, the business value and the basic concepts of the JFrog Pipelines platform.
 
 Next, learn how to configure a JFrog Pipeline step-by-step.
 
+<br/>
 
 #### For more information
 

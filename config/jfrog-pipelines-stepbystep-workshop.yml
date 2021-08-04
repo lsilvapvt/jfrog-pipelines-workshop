@@ -15,7 +15,7 @@ spec:
   - jfrog
   - artifactory
   content:
-    image: silval/jfrog-automation-workshop:latest
+    image: silval/jfrog-workshops-environment:latest
     files: github.com/lsilvapvt/jfrog-pipelines-workshop
   session:
     namespaces:

@@ -14,7 +14,7 @@ modules:
         name: Summary
         exit_sign: Finish
     02_stepbystep/index:
-        name: JFrog Pipelines Step-by-Step
+        name: Pipelines Step-by-Step
         exit_sign: Start Workshop
     02_stepbystep/finish:
         name: Summary
