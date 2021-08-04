@@ -1,8 +1,0 @@
-{
-    "dry_run": false,
-    "distribution_rules": [
-      {
-        "site_name": "?EDGE*"
-      }
-    ]
-}
