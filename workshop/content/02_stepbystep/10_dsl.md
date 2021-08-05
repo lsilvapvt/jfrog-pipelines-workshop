@@ -10,9 +10,10 @@ The procedures in this section can all be performed by any user, with or without
 
 ### Create the Pipeline DSL
 
+<br/>
+
 [Documentation](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Step-By-Step#PipelinesStep-By-Step-CreatethePipelineDSL)
 
-<br/>
 
 Copy the Pipelines DSL for the "Hello World" pipeline example to a `pipelines.yml` file. 
 

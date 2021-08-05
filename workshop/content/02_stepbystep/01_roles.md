@@ -6,6 +6,7 @@ Pipelines does not grant access to all facilities to all users, restricting most
 
 Developers (non-administrator users) can create a Pipeline DSL and run their pipelines. To connect Git repositories and other services to Pipelines, a developer will need assistance from an administrator or Project admin.
 
+<br/>
 
 ### Getting Started as an Administrator
 

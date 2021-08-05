@@ -4,7 +4,6 @@
 
 [Documentation](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Step-By-Step#PipelinesStep-By-Step-CreateaNodePool.)
 
-<br/>
 
 For any user to run a pipeline, you must provide Pipelines with machines for steps to execute on. In Pipelines, these machines are called nodes, and they are organized into node pools.
 
@@ -15,7 +14,7 @@ To add a node pool and nodes, from the JFrog UI, go to the  **Administration tab
 <img src="https://www.jfrog.com/confluence/download/attachments/102630311/view_node_pools_1.png?version=1&modificationDate=1605686905000&api=v2" alt="JFrog Pipelines" style="width:95%;background-color:transparent;border:none;" />
 
 
-#### Note
+**Note**
 
 Node pools can be static (a VM in at a fixed IP address) or dynamic (on-demand in a cloud service). For more information, see [Managing Pipelines Node Pools](https://www.jfrog.com/confluence/display/JFROG/Managing+Pipelines+Node+Pools).
 

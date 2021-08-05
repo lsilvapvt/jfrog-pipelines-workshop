@@ -4,7 +4,6 @@
 
 [Documentation](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Step-By-Step#PipelinesStep-By-Step-AddIntegrations)
 
-<br/>
 
 For Pipelines to connect to other services, such as GitHub, Artifactory, or Kubernetes, you must add integrations for those services. 
 

@@ -11,6 +11,7 @@ This tutorial demonstrates the procedures to get the "Hello World" example pipel
 Following these steps is also useful for familiarizing yourself with the Pipelines documentation and its structure within the JFrog Platform documentation.
 
 <br/>
+
 ---
 
 ### Agenda

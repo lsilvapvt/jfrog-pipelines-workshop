@@ -4,8 +4,6 @@
 
 [Documentation](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Step-By-Step#PipelinesStep-By-Step-add-pipeline-sourceAddaPipelineSource)
 
-<br/>
-
 For Pipelines to read and sync the Pipelines DSL from the source VCS repository, you must tell it where to find it by adding a pipeline source. 
 
 This is best performed only after the Pipelines DSL file is checked into the source repo, so that Pipelines can sync the file immediately.

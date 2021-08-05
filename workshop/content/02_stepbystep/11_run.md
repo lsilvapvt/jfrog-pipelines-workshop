@@ -4,9 +4,10 @@
 
 [Documentation](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Step-By-Step#PipelinesStep-By-Step-RunthePipeline)
 
-<br/>
 
 ### Browse Pipelines
+
+<br/>
 
 To browse pipelines loaded from configured pipelines sources, in the Application tab go to **Pipelines** | **My Pipelines**. 
 
@@ -24,6 +25,8 @@ Click the name of the pipeline to see its Pipeline History. This view renders a 
 
 ### Trigger a Pipeline Run
 
+<br/>
+
 The pipeline has been defined to trigger execution when a new commit is made to the Git repo.  You can also execute the pipeline by manually triggering the first step.
 
 <img src="https://www.jfrog.com/confluence/download/attachments/102630311/pipelines-hw-run.gif?version=1&modificationDate=1583359625000&api=v2" alt="JFrog Pipelines" style="width:95%;background-color:transparent;border:none;" />
@@ -34,6 +37,8 @@ For more information on triggering pipelines, see [Running a Pipeline](https://w
 <br/>
 
 ### Automation 
+
+<br/>
 
 TBD 
 

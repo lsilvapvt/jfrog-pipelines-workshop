@@ -1,8 +1,7 @@
 
-<br/>
-
 In this module you learned how to configure and create a basic JFrog Pipeline step-by-step.
 
+<br/>
 
 #### For more information
 
