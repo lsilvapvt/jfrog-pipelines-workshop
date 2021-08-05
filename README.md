@@ -14,11 +14,13 @@ This is the content for a workshop lab built to run with the [Edukates platform]
 2. A Kubernetes Ingress Controller deployed to your cluster 
 
    - [Contour](https://projectcontour.io/getting-started/) or 
+
    - [Nginx](https://kubernetes.github.io/ingress-nginx/deploy)
 
 3. Configure the Edukates Operators 
    
    [Documentation](https://docs.edukates.io/en/latest/getting-started/installing-operator.html).
+
    e.g. `kubectl apply -k "github.com/eduk8s/eduk8s?ref=21.05.10.1"`
 
 ---
@@ -28,6 +30,7 @@ This is the content for a workshop lab built to run with the [Edukates platform]
 1. Clone this repository locally 
 
 2. Edit the following lines of file `config/jfrog-pipelines-portal.yml`:
+
     ```
     password: PORTAL_PASSWORD_GOES_HERE   # replace with your own portal password
     ingress:
@@ -51,6 +54,10 @@ This is the content for a workshop lab built to run with the [Edukates platform]
 
     That command should return the url of the training portal along with its admin credentials. 
 
+    To access the training portal, access the url and enter the portal password configured in step 2 above.
+
+    To access the admin pages of the portal, access `<url>/admin` and enter the admin credentials returned by the command above.
+
 ---
-    
+
 

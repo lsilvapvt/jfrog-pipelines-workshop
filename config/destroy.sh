@@ -1,5 +1,6 @@
 #!/bin/bash
-ytt -f jfrog-pipelines-portal-ytt.yml -f credentials.yml | kubectl delete -f-
+# ytt -f jfrog-pipelines-portal-ytt.yml -f credentials.yml | kubectl delete -f-
+kubectl delete -f jfrog-pipelines-portal.ymllocal
 
 kubectl delete -f jfrog-pipelines-intro-workshop.yml
 kubectl delete -f jfrog-pipelines-stepbystep-workshop.yml

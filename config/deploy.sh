@@ -20,7 +20,8 @@ kubectl apply -f jfrog-pipelines-stepbystep-workshop.yml
 
 sleep 5
 
-ytt -f jfrog-pipelines-portal-ytt.yml -f credentials.yml | kubectl apply -f-
+# ytt -f jfrog-pipelines-portal-ytt.yml -f credentials.yml | kubectl apply -f-
+kubectl apply -f jfrog-pipelines-portal.ymllocal
 
 sleep 8
 
