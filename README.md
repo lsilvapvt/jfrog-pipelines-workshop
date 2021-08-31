@@ -5,6 +5,10 @@ This is the content for a workshop lab built to run with the [Edukates platform]
 
 ---
 
+<img src="./workshop/content/images/workshop_01.png" alt="Workshop" style="width:90%;background-color:transparent;border:none;" />
+
+---
+
 ### How to run it
 
 #### Pre-requisites
